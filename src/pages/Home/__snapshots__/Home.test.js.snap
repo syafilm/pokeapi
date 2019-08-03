@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page Can render Smoothly 1`] = `
+<div
+  className="center-place"
+>
+  <h1>
+    React Scratch by
+    <a
+      href="https://www.linkedin.com/in/syafilm/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+       Syafil M
+    </a>
+  </h1>
+</div>
+`;
