@@ -1,7 +1,7 @@
 {
-  "name": "search-giphy",
+  "name": "react-scratch",
   "version": "1.0.0",
-  "description": "Search giphy based on third party api",
+  "description": "React Scratch",
   "main": "index.js",
   "author": "syafilm27@gmail.com",
   "license": "MIT",
