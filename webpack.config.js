@@ -6,7 +6,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
   template: './src/index.html',
   filename: './index.html',
-  title: 'Caching'
+  title: 'Caching',
+  favicon: './src/favicon.ico'
 })
 
 const miniCssExtractPlugin = new MiniCssExtractPlugin({
@@ -38,6 +39,8 @@ module.exports = {
     miniCssExtractPlugin,
   ],
   devServer: {
+    host:'000.000.00.00',
+    port: 8888,
     historyApiFallback: true,
     disableHostCheck: true
   },
@@ -66,7 +69,7 @@ module.exports = {
         }
       },
       {
-        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.woff$/, /\.woff2$/, /\.eot$/, /\.ttf$/],
+        test: [/\.bmp$/, /\.gif$/, /\.svg$/, /\.jpe?g$/, /\.png$/, /\.woff$/, /\.woff2$/, /\.eot$/, /\.ttf$/],
         use: [{
           loader: 'url-loader',
           options: {
