@@ -1,5 +1,4 @@
-/* eslint-disable */
-import { css } from 'emotion'
+import {css} from 'emotion'
 
 function mergeCss(...options) {
   return css`
@@ -8,5 +7,5 @@ function mergeCss(...options) {
 }
 
 export default {
-  mergeCss,
+  mergeCss
 }

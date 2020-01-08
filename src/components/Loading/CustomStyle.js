@@ -1,5 +1,4 @@
-/* eslint-disable */
-import { css } from 'emotion'
+import {css} from 'emotion'
 
 const donut = css`
   width: 2rem;

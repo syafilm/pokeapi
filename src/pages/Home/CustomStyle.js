@@ -1,5 +1,4 @@
-/* eslint-disable */
-import { css } from 'emotion'
+import {css} from 'emotion'
 
 const marginBottom = css`
   margin-bottom: 1rem!important;

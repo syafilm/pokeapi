@@ -1,4 +1,5 @@
 export default {
   ROOT: '/',
-  DETAIL: '/detail/:id'
+  DETAIL: '/detail/:id',
+  MYPOKEMON: '/mypokemon'
 }

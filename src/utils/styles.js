@@ -680,6 +680,28 @@ const btnDark = css`
   cursor: pointer !important;
 `
 
+const btnLight = css`
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background: #fff !important;
+  border: 1px solid #fff !important;
+  color: #000 !important;
+  border-radius: 30px;
+  cursor: pointer !important;
+`
+
 const btn = css`
   display: inline-block;
   text-align: center;
@@ -854,6 +876,7 @@ export default {
   // button,
   btn,
   btnDark,
+  btnLight,
 
   //img
   imgFluid,
