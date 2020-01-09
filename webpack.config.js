@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
-  template: './src/index.html',
+  template: path.resolve(__dirname, './src', 'index.html'),
   filename: './index.html',
   title: 'Caching',
   favicon: './src/favicon.ico'
@@ -39,8 +39,6 @@ module.exports = {
     miniCssExtractPlugin,
   ],
   devServer: {
-    host:'000.000.00.00',
-    port: 8888,
     historyApiFallback: true,
     disableHostCheck: true
   },
